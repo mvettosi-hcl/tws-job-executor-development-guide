@@ -10,8 +10,19 @@
 2. Create the build.xml file
 3. Create the xml message file (in the src/com/ibm/scheduling/msg directory)
 7. Remove the com.ibm.scheduling.agent.<name>.msg package
-8. Rename the /META-INF/services/com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor.base to com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor
-9 Edit the /META-INF/services/com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor. file and add the following lines:  
+8. Rename the  
+```
+/META-INF/services/com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor.base  
+```
+to  
+```
+com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor  
+```
+9. Edit the file  
+```
+/META-INF/services/com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor  
+```
+and add the following lines:  
 ```
 version=${agent.executors.ver}
 label=<Name>
