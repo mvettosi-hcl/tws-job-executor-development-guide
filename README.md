@@ -19,3 +19,4 @@ For an introduction and an initial setup:
 
 ## User Interface
 1. [Develop user interface](/Develop-user-interface.md)  
+1. [Develop parameter validation](/Develop-parameter-validation.md)  
