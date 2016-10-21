@@ -3,7 +3,7 @@ This is how to develop a new Job Executor for the IBM Workload Scheduler
 
 ## Table of contents
 [Setup](#setup)  
-[User interface](#user%20setup)  
+[User interface](#user%Interface)  
 [Job Properties](#job%20properties)  
 [Job Output](#job%20output)  
 [Kill](#kill)  
