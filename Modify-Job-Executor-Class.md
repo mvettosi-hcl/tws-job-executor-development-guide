@@ -1,11 +1,11 @@
 # Modify Job Executor Class
-- Add the following in the *<name>JobExecutorConstants* class    
+- Add the following in the **_<name>JobExecutorConstants_** class    
 ```java
 public static final ListResourceBundle CATALOG = (ListResourceBundle)ListResourceBundle.getBundle( <Name>JobExecutorMsg.CLASS_NAME );  
 ```
-- Add the following statement in the constructor of the *<name>JobExecutor* class:  
+- Add the following statement in the constructor of the **_<name>JobExecutor_** class:  
 ```java
 catalog=CATALOG;  
 ```
-- Remove the Timer class from the *<name>JobExecutor* class.
-- Remove the *getExecutionLog* method
+- Remove the Timer class from the **_<name>JobExecutor_** class.
+- Remove the **_getExecutionLog_** method

@@ -1,5 +1,5 @@
 # Develop parameter validation
-In *<name>JobExecutor.java*:
+In **_<name>JobExecutor.java_**:
 - Add the following method:  
 ```java
 private ListResourceBundle getPluginCatalog(Locale loc) {

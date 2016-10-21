@@ -1,5 +1,5 @@
 # Develop pick list
-To develop a pick list, you have to implement the *runExecutorCommand* method
+To develop a pick list, you have to implement the **_runExecutorCommand_** method
 
 - Validate input parameters needed to perform the selected action, for example:  
 ```java
@@ -29,4 +29,4 @@ public boolean canRunOnConnector(String command) {
     return true;
 }
 ```
-- If you have a configuration file  use method *protected String updateParameterFromFile(String key, Map<String, String> parametersMap, String keyOnFile, Properties propertiesFile, boolean isReverseOrder)* to fill the parameters with file properties. Oozie plugin is one example of this use.
+- If you have a configuration file  use method **_protected String updateParameterFromFile(String key, Map<String, String> parametersMap, String keyOnFile, Properties propertiesFile, boolean isReverseOrder)_** to fill the parameters with file properties. Oozie plugin is one example of this use.
