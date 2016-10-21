@@ -13,4 +13,6 @@ This is how to develop a new Job Executor for the IBM Workload Scheduler
 
 ## Setup
 For an introduction and an initial setup:
-- Follow [this document](https://www.ibm.com/developerworks/community/blogs/e25892f0-20f7-46ff-bbe9-c7c03fb3036f/entry/tws_iw86_how_to_jobplugin?lang=en)
+1. Follow [this document](https://github.com/mvettosi-hcl/tws-job-executor-development-guide/blob/master/IBM-TWS-Integration-Workbench-86_How-to-custom-Job-Type.pdf)
+2. [Add to the build](https://github.com/mvettosi-hcl/tws-job-executor-development-guide/blob/master/Add-to-the-build.md)
+3. [Modify Job Executor Class](https://github.com/mvettosi-hcl/tws-job-executor-development-guide/blob/master/Modify-Job-Executor-Class.md)
