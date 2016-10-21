@@ -29,5 +29,22 @@ Remember to verify modeling (composer), modeling (TDWC) and to document the user
 [Develop job execution](/Develop-job-execution.md) and verify it on IBMi
 
 ## Job Properties
-[Develop job properties](/Develop-job-properties.md)  
-[Job Properties](/Job-properties.md)
+- [Develop job properties](/Develop-job-properties.md)  
+- [Job Properties](/Job-properties.md)
+- Document job properties
+
+## Job Output
+- Develop job output
+- Document job output
+
+## Kill
+- Develop kill
+- Document kill behavior
+
+## Reconnect
+- Develop reconnect
+- Document reconnect behavior
+ 
+## Build
+- [add plugin to official TWS build](/add-plugin-to-official-tws-build.md)
+- [add plugin to official TWS L10N build](/add-plugin-to-official-tws-l10n-build.md)
