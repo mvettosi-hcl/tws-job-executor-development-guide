@@ -8,7 +8,5 @@ labels.properties | labels<name>.properties
 
 
 |   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
