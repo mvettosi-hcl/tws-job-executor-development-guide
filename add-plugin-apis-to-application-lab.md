@@ -1,7 +1,7 @@
 # Add plugin apis to Application Lab
 
 ## In the **_SimpleUI/WebContent/Simple/doc/swaggerModel.yaml_** file:
-- Create a **_\<name\>Step_** definition and any related object needed at the bottom of the file. (see **_CloudantStep_** and its children for an example)
+- Create a **_\<name\>Step_** definition and any related object needed at the bottom of the file.  
   For example:
 ```yaml
 RestfulStep:
