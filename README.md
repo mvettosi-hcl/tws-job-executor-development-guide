@@ -45,6 +45,9 @@ Remember to verify modeling (composer), modeling (TDWC) and to document the user
 - Develop reconnect
 - Document reconnect behavior
  
+## Application Lab APIs
+- [Add plugin apis to Application Lab](/add-plugin-apis-to-application-lab.md)
+
 ## Build
 - [add plugin to official TWS build](/add-plugin-to-official-tws-build.md)
 - [add plugin to official TWS L10N build](/add-plugin-to-official-tws-l10n-build.md)
