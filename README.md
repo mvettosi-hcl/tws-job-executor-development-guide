@@ -3,12 +3,12 @@ This is how to develop a new Job Executor for the IBM Workload Scheduler
 
 ## Table of contents
 [Setup](#setup)  
-[User interface](#user%interface)  
-[Job Properties](#job%20properties)  
-[Job Output](#job%20output)  
+[User interface](#user-interface)  
+[Job Properties](#job-properties)  
+[Job Output](#job-output)  
 [Kill](#kill)  
 [Reconnect](#reconnect)  
-[Application Lab APIs](#application%20lab%20apis)  
+[Application Lab APIs](#application-lab-apis)  
 [Build](#build)  
 
 ## Setup
