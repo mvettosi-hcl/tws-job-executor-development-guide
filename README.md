@@ -9,8 +9,6 @@ This is how to develop a new Job Executor for the IBM Workload Scheduler
 [Job Output](#job-output)  
 [Kill](#kill)  
 [Reconnect](#reconnect)  
-[Application Lab APIs](#application-lab-apis)  
-[Build](#build)  
 
 ## Setup
 For an introduction and an initial setup:  
