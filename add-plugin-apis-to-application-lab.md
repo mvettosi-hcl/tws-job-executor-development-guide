@@ -75,7 +75,7 @@ RestInput:
   isFile:
     type: boolean
     description: If true use "input" as input as file name, and uses file content as input for the rest call. Otherwise uses input directly as input
-```java
+```
 
 - Add its reference in the **_Step_** definition
 
