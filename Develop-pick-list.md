@@ -16,7 +16,7 @@ try {
     return response;
 }
 ```  
-- Add the canRunOnConnector in the <name>JobExecutor.java, adding all pick list buttons actions you have in your UI that need to be executed on the agent side.
+- Add the canRunOnConnector in the **_\<name\>JobExecutor.java_**, adding all pick list buttons actions you have in your UI that need to be executed on the agent side.
 ```java
 /*
 * (non-Javadoc)

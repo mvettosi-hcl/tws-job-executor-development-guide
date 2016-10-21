@@ -1,5 +1,5 @@
 # Develop job execution
-Modify the **_<name>JobExecutor.java_**:
+Modify the **_\<name\>JobExecutor.java_**:
 - modify the method execute:  
 ```java
 public void execute() throws JobExecutorException {
@@ -93,7 +93,7 @@ private void setJobProperties() {
 }
 ```
 - If you have a configuration file then use the method **_protected void addJobProperty(String key, StringValue value, String keyInFile, Properties propertiesFile)_** to fill the jobproperties reading properties form the file. See Oozie plugin example for help
-- Modify the **_<name>JobExecutor__* constructor adding:  
+- Modify the **_\<name\>JobExecutor__* constructor adding:  
 ```java  
 properties = loadPropertiesFromFile(System.getProperty(CONFIGDIR), CONFIG_FILENAME, PROP_FILE);
 ```
@@ -101,7 +101,7 @@ properties = loadPropertiesFromFile(System.getProperty(CONFIGDIR), CONFIG_FILENA
 ```java  
 protected Properties properties;
 ```
-- Modify the **_<name>JobExecutorContants.java_** adding:
+- Modify the **_\<name\>JobExecutorContants.java_** adding:
 ```java  
 // Encryption key
 public static final byte[] key1 = new byte[] {(byte) 0x5c, (byte) 0x37, (byte) 0x92, (byte) 0x3a, (byte) 0x02, (byte) 0x85, (byte) 0x56, (byte) 0xc7, (byte) 0xda, (byte) 0x41, (byte) 0xd6, (byte) 0xdb, (byte) 0x0a, (byte) 0x03, (byte) 0xea, (byte) 0xe0};
@@ -111,11 +111,11 @@ public static final String CONFIGDIR = "ConfigDir";
 public static final String CONFIG_FILENAME = "SalesforceJobExecutor.properties";
 public static final String PROP_FILE = "cfg/" + CONFIG_FILENAME;   
 ```
-- Modify the **_<name>Action.java_**:
+- Modify the **_\<name\>Action.java_**:
   1. replace the **_doAction_** method with the **_runAction_** method.
   2. if the **_runAndMonitorPattern_** has been used then implement also the **_monitorAction_** method
 
 - Modify the **_runExecutorCommand_** and **_validateJsdl_** methods adding the following line:
 ```java  
-catalog = (ListResourceBundle)ListResourceBundle.getBundle(<name>JobExecutorMsg.CLASS_NAME, loc);
+catalog = (ListResourceBundle)ListResourceBundle.getBundle(\<name\>JobExecutorMsg.CLASS_NAME, loc);
 ```

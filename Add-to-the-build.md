@@ -7,9 +7,9 @@
 | executorGUI.properties | <name>.properties  |
 | labels.properties | labels<name>.properties |
 
-- Create the build.xml file
-- Create the xml message file (in the src/com/ibm/scheduling/msg directory)
-- Remove the com.ibm.scheduling.agent.<name>.msg package
+- Create the **_build.xml_** file
+- Create the xml message file (in the **_src/com/ibm/scheduling/msg_** directory)
+- Remove the **_com.ibm.scheduling.agent.\<name\>.msg package__*
 - Rename the file  
 ```
 /META-INF/services/com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor.base  
@@ -20,15 +20,15 @@ com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor
 ```
 - Edit the file  
 ```
-/META-INF/services/com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor  
+**_/META-INF/services/com.ibm.scheduling.jobdispatcher.spi.ApplicationDescriptor_**  
 ```  
 and add the following lines:  
 ```
 version=${agent.executors.ver}
-label=<Name>
+label=<name>
 category=<category>  
 ```
-- Remove the following jar files from the <Name>JobExecutor\lib path:  
+- Remove the following jar files from the **_\<name\>JobExecutor\lib_** path:  
 ```
 SchedulerSDO.jar
 SchedulerSPI.jar

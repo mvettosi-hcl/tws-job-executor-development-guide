@@ -1,6 +1,6 @@
 # Develop user interface
 - Set the password with the standard auiml component:  
-   In the file <name>JobExecutor/resources/<name>.auiml change the password entries
+   In the file **_\<name\>JobExecutor/resources/\<name\>.auiml_** change the password entries
 ```xml  
 <STRING NAME="myPassword" MANDATORY="TRUE" OBSCURED="TRUE">
 ```  
