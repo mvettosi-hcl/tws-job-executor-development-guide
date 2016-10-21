@@ -4,6 +4,7 @@ This is how to develop a new Job Executor for the IBM Workload Scheduler
 ## Table of contents
 [Setup](#setup)  
 [User interface](#user-interface)  
+[Execution](#execution)  
 [Job Properties](#job-properties)  
 [Job Output](#job-output)  
 [Kill](#kill)  
@@ -22,3 +23,7 @@ Instructions to develop particoular elements of the UI
 - [Develop user interface](/Develop-user-interface.md)  
 - [Develop parameter validation](/Develop-parameter-validation.md)  
 - [Develop pick list](/Develop-pick-list.md)  
+Remember to verify modeling (composer), modeling (TDWC) and to document the user interface fields (SH)
+
+## Execution
+[Develop job execution](/Develop-job-execution.md) and verify it on IBMi
