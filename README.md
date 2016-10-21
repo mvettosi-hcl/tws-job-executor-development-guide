@@ -18,5 +18,7 @@ For an introduction and an initial setup:
 3. [Modify Job Executor Class](/Modify-Job-Executor-Class.md)  
 
 ## User Interface
-1. [Develop user interface](/Develop-user-interface.md)  
-1. [Develop parameter validation](/Develop-parameter-validation.md)  
+Instructions to develop particoular elements of the UI
+- [Develop user interface](/Develop-user-interface.md)  
+- [Develop parameter validation](/Develop-parameter-validation.md)  
+- [Develop pick list](/Develop-pick-list.md)  
