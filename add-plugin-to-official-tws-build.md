@@ -1,6 +1,6 @@
 # add plugin to official TWS build
 1. In  the file tws_build/tdwb_java/src/build.xml
-   - add *<name>JobExecutor* to property **_ExecutorsProjects_** at the line **_<property name="ExecutorsProjects" value="........................."/>_**
+   - add **_\<name\>JobExecutor_** to property **_ExecutorsProjects_** at the line **_<property name="ExecutorsProjects" value="........................."/>_**
    - add **_<name>JobExecutor_** to the for loop ====> **_for list="${ExecutorsProjects}" at line <contains string="......................." substring="@{project}" />_**
  
 2. In  the file tws_build/tdwb_java/src/agent/build.xml
