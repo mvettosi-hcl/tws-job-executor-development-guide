@@ -27,3 +27,6 @@ Remember to verify modeling (composer), modeling (TDWC) and to document the user
 
 ## Execution
 [Develop job execution](/Develop-job-execution.md) and verify it on IBMi
+
+## Job Properties
+[Develop job properties](/Develop-job-properties.md) and verify it on IBMi
